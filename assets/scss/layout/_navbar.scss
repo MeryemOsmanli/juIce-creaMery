@@ -1,0 +1,132 @@
+// navbar style
+nav {
+  color: white;
+  width: 100%;
+  position: fixed;
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  .navbar {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      gap: 40px;
+      li {
+        font-size: 20px;
+        font-weight: 800;
+        a:hover {
+          color: rgb(225, 225, 225);
+        }
+      }
+    }
+    a {
+      color: white;
+      border: none;
+      padding: 3px;
+    }
+    h1 {
+      font-size: 40px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+    h1:hover {
+      color: rgb(225, 225, 225);
+    }
+    .navbtn {
+      display: none;
+    }
+  }
+}
+.hamburger-menu.active {
+  display: flex;
+}
+.hamburger-menu {
+  display: none;
+  width: 100%;
+  background-color: #c7a1b9;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  .hamburger-menu-ul {
+    width: 100%;
+    div:hover {
+      background-color: rgb(225, 224, 224);
+    }
+    div {
+      transition: 1s;
+      li {
+        padding: 10px;
+        a {
+          text-shadow: 2px 2px 10px #9d2370;
+          color: white;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    background-color: white;
+    color: #f269c0;
+    .navbar {
+      height: 60px;
+      ul {
+        display: none;
+        li {
+          a:hover {
+            color: black;
+          }
+        }
+      }
+      .navbtn {
+        display: flex;
+        padding: 10px;
+        background-color: white;
+        color: gray;
+        border: 1px solid gray;
+        border-radius: 5px;
+        gap: 7px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    .navbar {
+      height: 40px;
+      h1 {
+        font-size: 15px;
+      }
+
+      .navbtn {
+        padding: 10px;
+        gap: 5px;
+        padding: 6px;
+        gap: 4px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 405px) {
+  nav {
+    .navbar.container {
+      padding: 0 50px;
+      h1 {
+        font-size: 20px;
+      }
+      .navbtn {
+        padding: 3px;
+        gap: 3px;
+        font-size: 10px;
+      }
+    }
+  }
+  .hamburger-menu {
+    top: 40px;
+  }
+}
