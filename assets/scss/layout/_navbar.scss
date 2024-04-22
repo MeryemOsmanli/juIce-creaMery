@@ -47,7 +47,7 @@ nav {
 .hamburger-menu {
   display: none;
   width: 100%;
-  background-color: #c7a1b9;
+  background-color: #321929;
   align-items: center;
   position: absolute;
   top: 60px;
@@ -71,7 +71,7 @@ nav {
 @media only screen and (max-width: 900px) {
   nav {
     background-color: white;
-    color: #f269c0;
+    color: gray;
     .navbar {
       height: 60px;
       ul {

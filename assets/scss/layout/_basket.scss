@@ -1,0 +1,160 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+.flavors_box_right {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.flavors_box_right.dark-mode {
+  --background-color: #333;
+  --text-color: white;
+}
+
+.flavors_sec {
+  .flavors_box {
+    width: 100%;
+    display: flex;
+    .flavors_box_left {
+      width: 50%;
+      height: 400px;
+      background-color: red;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .flavors_box_right {
+      width: 50%;
+      height: 400px;
+      text-align: center;
+      padding: 100px;
+      h2 {
+        font-family: cursive;
+      }
+      p {
+        padding: 50px;
+        font-family: monospace;
+        font-style: italic;
+      }
+      button {
+        padding: 10px 20px;
+        border: 2px solid black;
+        background-color: white;
+        cursor: pointer;
+        font-family: cursive;
+
+        a {
+          color: black;
+          font-weight: 600;
+        }
+      }
+      button:hover {
+        background-color: black;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.basket-container {
+  display: flex;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  width: 100%;
+  min-height: 100vh;
+
+  aside {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    button {
+      padding: 10px;
+      border: none;
+      margin: 20px 0;
+      background-color: rgb(251, 142, 197);
+      color: white;
+      a {
+        color: white;
+      }
+      font-weight: 700;
+      border-radius: 50px;
+    }
+    .total_div {
+      width: 50%;
+
+      padding: 10px;
+      h2 {
+        margin: 20px 0;
+      }
+      background-color: #faaca8;
+      color: rgb(33, 33, 33);
+      padding: 20px;
+      border: 1px solid grey;
+    }
+  }
+  main {
+    width: 50%;
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .card {
+        margin: 20px;
+        background-color: white;
+        border: 1px solid gray;
+        text-align: center;
+        width: 40%;
+        height: 250px;
+        border-radius: 0 0 40% 40%;
+        img {
+          height: 60%;
+          width: 60%;
+        }
+        p {
+          padding: 5px 0;
+        }
+        h2 {
+          font-style: italic;
+          font-family: cursive;
+        }
+        button {
+          border: none;
+          background-color: rgb(254, 131, 193);
+          color: white;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+.counter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.counter-container {
+  display: flex;
+}
+
+.counter-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.counter-item h2 {
+  font-size: 20px;
+}

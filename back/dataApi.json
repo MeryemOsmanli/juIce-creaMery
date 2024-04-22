@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Jasmine",
+            "price": "Jasmine",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Staff",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team04_800x.jpg?v=1655110261",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 2,
+            "title": "William2",
+            "price": "William",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Fresh Juice Maker",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team02_800x.jpg?v=1655110208",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 3,
+            "title": "Loara",
+            "price": "Loara",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Head Chef",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team03_800x.jpg?v=1655110230",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 4,
+            "title": "Riya Thomas",
+            "price": "Riya Thomas",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Manager",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team05_800x.jpg?v=1655110245",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 5,
+            "title": "Alwin",
+            "price": " Alwin",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Juice Maker",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team04_800x.jpg?v=1655110261",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 6,
+            "title": "Grimond Ray",
+            "price": "Grimond Ray",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "CEO",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team06_800x.jpg?v=1655110275",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 7,
+            "title": "Richard Williams",
+            "price": "Richard Williams",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Dessert Chef",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team07_800x.jpg?v=1655110290",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 8,
+            "title": "Grey",
+            "price": "Grey",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Customer support",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team08_800x.jpg?v=1655110302",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 9,
+            "title": "Sara",
+            "price": "Sara",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "Founder",
+            "image": "https://dt-faryita.myshopify.com/cdn/shop/files/team09_800x.jpg?v=1655110314",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        }
+    ]
+}

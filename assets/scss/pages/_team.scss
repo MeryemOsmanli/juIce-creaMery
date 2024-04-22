@@ -1,0 +1,248 @@
+.hero_team {
+  background-image: url("https://assets3.thrillist.com/v1/image/1612560/1000x666/flatten;crop;webp=auto;jpeg_quality=60.jpg");
+  width: 100%;
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+main {
+  .team_text_box {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(254, 229, 162);
+    text-align: center;
+    padding-top: 3rem;
+    h2 {
+      font-size: 40px;
+      letter-spacing: 3px;
+      font-family: "Bad Script", cursive;
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
+  .team_contain_box {
+    background-color: rgb(254, 229, 162);
+    padding: 2rem;
+    .team_contain {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      flex-wrap: wrap;
+      gap: 30px;
+      .cardDiv {
+        width: 30%;
+        height: 500px;
+        text-align: center;
+        img {
+          height: 80%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .cardPrice {
+          font-size: 30px;
+          padding: 10px 0;
+        }
+        .cardCategory {
+          font-size: 20px;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+.offer_sec {
+  width: 100%;
+  .offer_image {
+    background-color: rgb(254, 229, 162);
+    width: 100%;
+    height: 100px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .offer_form {
+    width: 100%;
+    padding: 50px 100px;
+    background-color: rgb(254, 229, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .offer_form_head {
+      width: 100%;
+      text-align: center;
+      h2 {
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+    .offer_form_parag {
+      width: 100%;
+      text-align: center;
+      p {
+        font-size: 40px;
+        font-family: "Bad Script", cursive;
+        font-weight: bold;
+        font-style: normal;
+      }
+    }
+    .offer_form_inp_btn {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      .offer_inp {
+        width: 60%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 300px;
+
+        input {
+          width: 100%;
+          padding: 15px;
+          border: 1px solid black;
+          border-radius: 20px;
+          background-color: rgb(254, 229, 162);
+        }
+      }
+      .offer_btn {
+        width: 40%;
+        height: 100px;
+        padding-right: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          width: 100%;
+          padding: 15px;
+          border: none;
+          border: 1px solid black;
+          border-radius: 20px;
+          background-color: rgb(254, 229, 162);
+          color: grey;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .hero_team {
+    min-height: 400px;
+  }
+  main {
+    .team_text_box {
+      height: 100px;
+
+      padding-top: 2rem;
+    }
+    .team_contain_box {
+      .team_contain.container {
+        padding: 0 50px;
+
+        .cardDiv {
+          height: 270px;
+
+          .cardPrice {
+            font-size: 20px;
+          }
+          .cardCategory {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .offer_sec {
+      .offer_form {
+        padding: 50px;
+        .offer_form_head {
+          h2 {
+            font-size: 25px;
+          }
+        }
+        .offer_form_parag {
+          p {
+            font-size: 30px;
+          }
+        }
+        .offer_form_inp_btn {
+          .offer_inp {
+            padding-left: 100px;
+          }
+          .offer_btn {
+            padding-right: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 340px) {
+  .hero_team {
+    min-height: 300px;
+  }
+  main {
+    .team_text_box {
+      padding-top: 1rem;
+      height: 60px;
+      h2 {
+        font-size: 30px;
+        letter-spacing: 1px;
+      }
+    }
+    .team_contain_box {
+      padding: 2rem;
+      .team_contain.container {
+        padding: 0;
+
+        gap: 60px;
+        .cardDiv {
+          width: 100%;
+          height: 330px;
+        }
+      }
+    }
+    .offer_sec {
+      .offer_form {
+        padding: 5px;
+        .offer_form_head {
+          h2 {
+            font-size: 20px;
+          }
+        }
+        .offer_form_parag {
+          p {
+            font-size: 21px;
+          }
+        }
+        .offer_form_inp_btn {
+          gap: 10px;
+          .offer_inp {
+            padding-left: 0;
+            input {
+              padding: 10px;
+              font-size: 12px;
+            }
+          }
+          .offer_btn {
+            padding-right: 0;
+            button {
+              padding: 10px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
